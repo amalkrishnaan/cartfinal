@@ -1,0 +1,29 @@
+.cart-item {
+    display: flex;
+    gap: 20px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.cart-item img {
+    width: 100px;
+    height: auto;
+}
+
+.cart-item-details {
+    flex-grow: 1;
+}
+
+.remove-btn {
+    background-color: #ff6f61;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.remove-btn:hover {
+    background-color: #ff3f31;
+}
