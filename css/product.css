@@ -1,0 +1,135 @@
+
+
+    .product-detail-card {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .card {
+        max-width: 800px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    
+    }
+
+    .card-body {
+        padding: 20px;
+        display: flex;
+        gap: 20px;
+
+    }
+
+    .product-thumbnails {
+        display: flex;
+        flex-direction: column;
+        margin-right: 20px;
+    }
+
+    .thumbnail-image {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 10px;
+        cursor: pointer;
+        border: 2px solid transparent;
+        transition: border 0.3s ease;
+    }
+
+    .thumbnail-image:hover {
+        border: 2px solid #007bff;
+    }
+
+    .product-image {
+        flex: 1;
+    }
+
+    .product-image img {
+        width: 100%;
+        max-width: 400px;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+
+    .product-info {
+        flex: 1;
+    }
+
+    .card-title {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    .card-text {
+        margin-bottom: 10px;
+    }
+
+    .price {
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    .offer-price {
+        color: #28a745;
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    .original-price {
+        text-decoration: line-through;
+        color: #888;
+        margin-left: 10px;
+    }
+
+    .btn {
+        padding: 10px 20px;
+        font-size: 16px;
+        border-radius: 5px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        cursor: pointer;
+        border: none;
+    }
+
+    .btn-primary {
+        background-color: #007bff;
+        color: #fff;
+    }
+
+    .btn-primary:hover {
+        background-color: #0056b3;
+    }
+    header {
+        background-color: #2874f0;
+        color: white;
+        padding: 10px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header h1 {
+        margin: 0;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+    }
+
+    .sa{
+        display: flex;
+        margin-left: 850px;
+    }
+
+    .sa a{
+        margin-left: 200px;
+    }
+    .as{
+        margin-left: 400px;
+        margin-top: -30px;
+    }
